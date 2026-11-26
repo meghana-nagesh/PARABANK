@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-22T12:40:02 IST" name="Default suite" finished-at="2026-11-22T12:45:17 IST" duration-ms="314977">
+    <groups>
+      <group name="regression">
+        <method signature="AccountTests.PB_TC_016_accountsOverviewTable()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" name="PB_TC_016_accountsOverviewTable" class="com.meghana.parabank.tests.AccountTests"/>
+        <method signature="AccountTests.PB_TC_018_openSavingsAccount()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" name="PB_TC_018_openSavingsAccount" class="com.meghana.parabank.tests.AccountTests"/>
+        <method signature="AccountTests.PB_TC_019_openCheckingAccount()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" name="PB_TC_019_openCheckingAccount" class="com.meghana.parabank.tests.AccountTests"/>
+        <method signature="AccountTests.PB_TC_020_newAccountListed()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" name="PB_TC_020_newAccountListed" class="com.meghana.parabank.tests.AccountTests"/>
+        <method signature="BillPayTests.PB_TC_025_billPay()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" name="PB_TC_025_billPay" class="com.meghana.parabank.tests.BillPayTests"/>
+        <method signature="BillPayTests.PB_TC_026_billPayBlankFields()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" name="PB_TC_026_billPayBlankFields" class="com.meghana.parabank.tests.BillPayTests"/>
+        <method signature="BillPayTests.PB_TC_027_billPayAccountMismatch()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" name="PB_TC_027_billPayAccountMismatch" class="com.meghana.parabank.tests.BillPayTests"/>
+        <method signature="LoanTests.PB_TC_036_requestLoan()[pri:0, instance:com.meghana.parabank.tests.LoanTests@2aceadd4]" name="PB_TC_036_requestLoan" class="com.meghana.parabank.tests.LoanTests"/>
+        <method signature="LoanTests.PB_TC_038_loanDeniedForHighDownPayment()[pri:0, instance:com.meghana.parabank.tests.LoanTests@2aceadd4]" name="PB_TC_038_loanDeniedForHighDownPayment" class="com.meghana.parabank.tests.LoanTests"/>
+        <method signature="LoginTests.PB_TC_007_loginWithValidCredentials()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" name="PB_TC_007_loginWithValidCredentials" class="com.meghana.parabank.tests.LoginTests"/>
+        <method signature="LoginTests.PB_TC_008_loginWithInvalidCredentials()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" name="PB_TC_008_loginWithInvalidCredentials" class="com.meghana.parabank.tests.LoginTests"/>
+        <method signature="LoginTests.PB_TC_009_loginWithInvalidUsername()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" name="PB_TC_009_loginWithInvalidUsername" class="com.meghana.parabank.tests.LoginTests"/>
+        <method signature="LoginTests.PB_TC_010_loginWithBlankCredentials()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" name="PB_TC_010_loginWithBlankCredentials" class="com.meghana.parabank.tests.LoginTests"/>
+        <method signature="LoginTests.PB_TC_012_passwordIsCaseSensitive()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" name="PB_TC_012_passwordIsCaseSensitive" class="com.meghana.parabank.tests.LoginTests"/>
+        <method signature="LoginTests.PB_TC_013_logout()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" name="PB_TC_013_logout" class="com.meghana.parabank.tests.LoginTests"/>
+        <method signature="NavigationTests.PB_TC_039_leftMenuLinks()[pri:0, instance:com.meghana.parabank.tests.NavigationTests@6989da5e]" name="PB_TC_039_leftMenuLinks" class="com.meghana.parabank.tests.NavigationTests"/>
+        <method signature="ProfileTests.PB_TC_033_updateContactInfo()[pri:0, instance:com.meghana.parabank.tests.ProfileTests@2a5c8d3f]" name="PB_TC_033_updateContactInfo" class="com.meghana.parabank.tests.ProfileTests"/>
+        <method signature="ProfileTests.PB_TC_035_updatedDetailsSaved()[pri:0, instance:com.meghana.parabank.tests.ProfileTests@2a5c8d3f]" name="PB_TC_035_updatedDetailsSaved" class="com.meghana.parabank.tests.ProfileTests"/>
+        <method signature="RegisterTests.PB_TC_001_registerNewCustomer()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" name="PB_TC_001_registerNewCustomer" class="com.meghana.parabank.tests.RegisterTests"/>
+        <method signature="RegisterTests.PB_TC_002_registerWithBlankFields()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" name="PB_TC_002_registerWithBlankFields" class="com.meghana.parabank.tests.RegisterTests"/>
+        <method signature="RegisterTests.PB_TC_003_registerPasswordMismatch()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" name="PB_TC_003_registerPasswordMismatch" class="com.meghana.parabank.tests.RegisterTests"/>
+        <method signature="RegisterTests.PB_TC_004_registerExistingUsername()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" name="PB_TC_004_registerExistingUsername" class="com.meghana.parabank.tests.RegisterTests"/>
+        <method signature="SecurityTests.PB_TC_050_accountPageNotOpenWithoutLogin()[pri:0, instance:com.meghana.parabank.tests.SecurityTests@24aed80c]" name="PB_TC_050_accountPageNotOpenWithoutLogin" class="com.meghana.parabank.tests.SecurityTests"/>
+        <method signature="TransferTests.PB_TC_021_transferFunds()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" name="PB_TC_021_transferFunds" class="com.meghana.parabank.tests.TransferTests"/>
+        <method signature="TransferTests.PB_TC_022_balancesUpdatedAfterTransfer()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" name="PB_TC_022_balancesUpdatedAfterTransfer" class="com.meghana.parabank.tests.TransferTests"/>
+        <method signature="TransferTests.PB_TC_023_transferBlankAmount()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" name="PB_TC_023_transferBlankAmount" class="com.meghana.parabank.tests.TransferTests"/>
+        <method signature="TransferTests.PB_TC_024_transferNonNumericAmount()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" name="PB_TC_024_transferNonNumericAmount" class="com.meghana.parabank.tests.TransferTests"/>
+        <method signature="TransferTests.PB_TC_043_transferDecimalAmount()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" name="PB_TC_043_transferDecimalAmount" class="com.meghana.parabank.tests.TransferTests"/>
+        <method signature="UiTests.PB_TC_051_homePageUi()[pri:0, instance:com.meghana.parabank.tests.UiTests@5dda768f]" name="PB_TC_051_homePageUi" class="com.meghana.parabank.tests.UiTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AccountTests.PB_TC_019_openCheckingAccount()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" name="PB_TC_019_openCheckingAccount" class="com.meghana.parabank.tests.AccountTests"/>
+        <method signature="BillPayTests.PB_TC_025_billPay()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" name="PB_TC_025_billPay" class="com.meghana.parabank.tests.BillPayTests"/>
+        <method signature="LoginTests.PB_TC_007_loginWithValidCredentials()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" name="PB_TC_007_loginWithValidCredentials" class="com.meghana.parabank.tests.LoginTests"/>
+        <method signature="LoginTests.PB_TC_013_logout()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" name="PB_TC_013_logout" class="com.meghana.parabank.tests.LoginTests"/>
+        <method signature="NavigationTests.PB_TC_039_leftMenuLinks()[pri:0, instance:com.meghana.parabank.tests.NavigationTests@6989da5e]" name="PB_TC_039_leftMenuLinks" class="com.meghana.parabank.tests.NavigationTests"/>
+        <method signature="TransferTests.PB_TC_021_transferFunds()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" name="PB_TC_021_transferFunds" class="com.meghana.parabank.tests.TransferTests"/>
+      </group> <!-- smoke -->
+      <group name="crossbrowser">
+        <method signature="CrossBrowserTests.PB_TC_054_mainFlowInAnotherBrowser()[pri:0, instance:com.meghana.parabank.tests.CrossBrowserTests@fbd1f6]" name="PB_TC_054_mainFlowInAnotherBrowser" class="com.meghana.parabank.tests.CrossBrowserTests"/>
+      </group> <!-- crossbrowser -->
+    </groups>
+    <test started-at="2026-11-22T12:40:02 IST" name="Default test" finished-at="2026-11-22T12:45:17 IST" duration-ms="314977">
+      <class name="com.meghana.parabank.tests.NavigationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.NavigationTests@6989da5e]" started-at="2026-11-22T12:40:02 IST" name="setUp" finished-at="2026-11-22T12:40:04 IST" duration-ms="2556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_039_leftMenuLinks()[pri:0, instance:com.meghana.parabank.tests.NavigationTests@6989da5e]" started-at="2026-11-22T12:40:04 IST" name="PB_TC_039_leftMenuLinks" description="PB_TC_039 | All left menu links open the correct pages" finished-at="2026-11-22T12:40:18 IST" duration-ms="13833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_039_leftMenuLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.NavigationTests@6989da5e]" started-at="2026-11-22T12:40:18 IST" name="tearDown" finished-at="2026-11-22T12:40:18 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.NavigationTests -->
+      <class name="com.meghana.parabank.tests.BillPayTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" started-at="2026-11-22T12:42:42 IST" name="setUp" finished-at="2026-11-22T12:42:44 IST" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_025_billPay()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" started-at="2026-11-22T12:42:44 IST" name="PB_TC_025_billPay" description="PB_TC_025 | Pay a bill with valid payee details" finished-at="2026-11-22T12:42:56 IST" duration-ms="12106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_025_billPay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" started-at="2026-11-22T12:42:56 IST" name="tearDown" finished-at="2026-11-22T12:42:56 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" started-at="2026-11-22T12:42:56 IST" name="setUp" finished-at="2026-11-22T12:42:58 IST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_026_billPayBlankFields()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" started-at="2026-11-22T12:42:58 IST" name="PB_TC_026_billPayBlankFields" description="PB_TC_026 | Bill payment with all fields blank" finished-at="2026-11-22T12:43:04 IST" duration-ms="6757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_026_billPayBlankFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" started-at="2026-11-22T12:43:04 IST" name="tearDown" finished-at="2026-11-22T12:43:05 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" started-at="2026-11-22T12:43:05 IST" name="setUp" finished-at="2026-11-22T12:43:06 IST" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_027_billPayAccountMismatch()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" started-at="2026-11-22T12:43:06 IST" name="PB_TC_027_billPayAccountMismatch" description="PB_TC_027 | Bill payment when Account # and Verify Account # do not match" finished-at="2026-11-22T12:43:15 IST" duration-ms="8229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_027_billPayAccountMismatch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.BillPayTests@3a52dba3]" started-at="2026-11-22T12:43:15 IST" name="tearDown" finished-at="2026-11-22T12:43:15 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.BillPayTests -->
+      <class name="com.meghana.parabank.tests.RegisterTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:18 IST" name="setUp" finished-at="2026-11-22T12:40:20 IST" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_001_registerNewCustomer()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:20 IST" name="PB_TC_001_registerNewCustomer" description="PB_TC_001 | Register a new customer" finished-at="2026-11-22T12:40:29 IST" duration-ms="9130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_001_registerNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:29 IST" name="tearDown" finished-at="2026-11-22T12:40:29 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:29 IST" name="setUp" finished-at="2026-11-22T12:40:31 IST" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_002_registerWithBlankFields()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:31 IST" name="PB_TC_002_registerWithBlankFields" description="PB_TC_002 | Registration with all fields blank" finished-at="2026-11-22T12:40:38 IST" duration-ms="6857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_002_registerWithBlankFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:38 IST" name="tearDown" finished-at="2026-11-22T12:40:38 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:38 IST" name="setUp" finished-at="2026-11-22T12:40:40 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_003_registerPasswordMismatch()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:40 IST" name="PB_TC_003_registerPasswordMismatch" description="PB_TC_003 | Registration with mismatched Password and Confirm password" finished-at="2026-11-22T12:40:47 IST" duration-ms="7572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_003_registerPasswordMismatch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:47 IST" name="tearDown" finished-at="2026-11-22T12:40:48 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:48 IST" name="setUp" finished-at="2026-11-22T12:40:49 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_004_registerExistingUsername()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:40:49 IST" name="PB_TC_004_registerExistingUsername" description="PB_TC_004 | Registration with an already existing username" finished-at="2026-11-22T12:41:03 IST" duration-ms="13443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_004_registerExistingUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.RegisterTests@55fe41ea]" started-at="2026-11-22T12:41:03 IST" name="tearDown" finished-at="2026-11-22T12:41:03 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.RegisterTests -->
+      <class name="com.meghana.parabank.tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:43:45 IST" name="setUp" finished-at="2026-11-22T12:43:47 IST" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_007_loginWithValidCredentials()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:43:47 IST" name="PB_TC_007_loginWithValidCredentials" description="PB_TC_007 | Login with valid credentials" finished-at="2026-11-22T12:43:52 IST" duration-ms="5408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_007_loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:43:52 IST" name="tearDown" finished-at="2026-11-22T12:43:53 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:43:53 IST" name="setUp" finished-at="2026-11-22T12:43:54 IST" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_008_loginWithInvalidCredentials()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:43:54 IST" name="PB_TC_008_loginWithInvalidCredentials" description="PB_TC_008 | Login with valid username and wrong password" finished-at="2026-11-22T12:43:57 IST" duration-ms="3044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_008_loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:43:57 IST" name="tearDown" finished-at="2026-11-22T12:43:58 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:43:58 IST" name="setUp" finished-at="2026-11-22T12:43:59 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_009_loginWithInvalidUsername()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:43:59 IST" name="PB_TC_009_loginWithInvalidUsername" description="PB_TC_009 | Login with an invalid username" finished-at="2026-11-22T12:44:02 IST" duration-ms="3076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_009_loginWithInvalidUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:44:02 IST" name="tearDown" finished-at="2026-11-22T12:44:03 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:44:03 IST" name="setUp" finished-at="2026-11-22T12:44:04 IST" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_010_loginWithBlankCredentials()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:44:04 IST" name="PB_TC_010_loginWithBlankCredentials" description="PB_TC_010 | Login with blank username and password" finished-at="2026-11-22T12:44:08 IST" duration-ms="3921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_010_loginWithBlankCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:44:08 IST" name="tearDown" finished-at="2026-11-22T12:44:08 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:44:08 IST" name="setUp" finished-at="2026-11-22T12:44:10 IST" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_012_passwordIsCaseSensitive()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:44:10 IST" name="PB_TC_012_passwordIsCaseSensitive" description="PB_TC_012 | Password is case sensitive" finished-at="2026-11-22T12:44:13 IST" duration-ms="3233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_012_passwordIsCaseSensitive -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:44:13 IST" name="tearDown" finished-at="2026-11-22T12:44:13 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:44:13 IST" name="setUp" finished-at="2026-11-22T12:44:15 IST" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_013_logout()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:44:15 IST" name="PB_TC_013_logout" description="PB_TC_013 | Log out returns to the login page" finished-at="2026-11-22T12:44:19 IST" duration-ms="4388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_013_logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.LoginTests@752325ad]" started-at="2026-11-22T12:44:19 IST" name="tearDown" finished-at="2026-11-22T12:44:19 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.LoginTests -->
+      <class name="com.meghana.parabank.tests.LoanTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.LoanTests@2aceadd4]" started-at="2026-11-22T12:42:12 IST" name="setUp" finished-at="2026-11-22T12:42:14 IST" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_036_requestLoan()[pri:0, instance:com.meghana.parabank.tests.LoanTests@2aceadd4]" started-at="2026-11-22T12:42:14 IST" name="PB_TC_036_requestLoan" description="PB_TC_036 | Request a loan with valid details" finished-at="2026-11-22T12:42:24 IST" duration-ms="10285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_036_requestLoan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.LoanTests@2aceadd4]" started-at="2026-11-22T12:42:24 IST" name="tearDown" finished-at="2026-11-22T12:42:25 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.LoanTests@2aceadd4]" started-at="2026-11-22T12:42:25 IST" name="setUp" finished-at="2026-11-22T12:42:26 IST" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_038_loanDeniedForHighDownPayment()[pri:0, instance:com.meghana.parabank.tests.LoanTests@2aceadd4]" started-at="2026-11-22T12:42:26 IST" name="PB_TC_038_loanDeniedForHighDownPayment" description="PB_TC_038 | Loan is denied when the down payment is more than the balance" finished-at="2026-11-22T12:42:34 IST" duration-ms="7542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_038_loanDeniedForHighDownPayment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.LoanTests@2aceadd4]" started-at="2026-11-22T12:42:34 IST" name="tearDown" finished-at="2026-11-22T12:42:34 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.LoanTests -->
+      <class name="com.meghana.parabank.tests.CrossBrowserTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.CrossBrowserTests@fbd1f6]" started-at="2026-11-22T12:41:03 IST" name="setUp" finished-at="2026-11-22T12:41:04 IST" duration-ms="1444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_054_mainFlowInAnotherBrowser()[pri:0, instance:com.meghana.parabank.tests.CrossBrowserTests@fbd1f6]" started-at="2026-11-22T12:41:04 IST" name="PB_TC_054_mainFlowInAnotherBrowser" description="PB_TC_054 | Login and transfer work in another browser" finished-at="2026-11-22T12:41:22 IST" duration-ms="17766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_054_mainFlowInAnotherBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.CrossBrowserTests@fbd1f6]" started-at="2026-11-22T12:41:22 IST" name="tearDown" finished-at="2026-11-22T12:41:24 IST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.CrossBrowserTests -->
+      <class name="com.meghana.parabank.tests.SecurityTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.SecurityTests@24aed80c]" started-at="2026-11-22T12:42:34 IST" name="setUp" finished-at="2026-11-22T12:42:36 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_050_accountPageNotOpenWithoutLogin()[pri:0, instance:com.meghana.parabank.tests.SecurityTests@24aed80c]" started-at="2026-11-22T12:42:36 IST" name="PB_TC_050_accountPageNotOpenWithoutLogin" description="PB_TC_050 | Account page cannot be opened without logging in" finished-at="2026-11-22T12:42:42 IST" duration-ms="6203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_050_accountPageNotOpenWithoutLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.SecurityTests@24aed80c]" started-at="2026-11-22T12:42:42 IST" name="tearDown" finished-at="2026-11-22T12:42:42 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.SecurityTests -->
+      <class name="com.meghana.parabank.tests.ProfileTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.ProfileTests@2a5c8d3f]" started-at="2026-11-22T12:43:15 IST" name="setUp" finished-at="2026-11-22T12:43:16 IST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_033_updateContactInfo()[pri:0, instance:com.meghana.parabank.tests.ProfileTests@2a5c8d3f]" started-at="2026-11-22T12:43:16 IST" name="PB_TC_033_updateContactInfo" description="PB_TC_033 | Update address, city and phone number" finished-at="2026-11-22T12:43:25 IST" duration-ms="8799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_033_updateContactInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.ProfileTests@2a5c8d3f]" started-at="2026-11-22T12:43:25 IST" name="tearDown" finished-at="2026-11-22T12:43:25 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.ProfileTests@2a5c8d3f]" started-at="2026-11-22T12:43:25 IST" name="setUp" finished-at="2026-11-22T12:43:27 IST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_035_updatedDetailsSaved()[pri:0, instance:com.meghana.parabank.tests.ProfileTests@2a5c8d3f]" started-at="2026-11-22T12:43:27 IST" name="PB_TC_035_updatedDetailsSaved" description="PB_TC_035 | Updated contact details are saved after logging in again" finished-at="2026-11-22T12:43:45 IST" duration-ms="18025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_035_updatedDetailsSaved -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.ProfileTests@2a5c8d3f]" started-at="2026-11-22T12:43:45 IST" name="tearDown" finished-at="2026-11-22T12:43:45 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.ProfileTests -->
+      <class name="com.meghana.parabank.tests.UiTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.UiTests@5dda768f]" started-at="2026-11-22T12:42:05 IST" name="setUp" finished-at="2026-11-22T12:42:06 IST" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_051_homePageUi()[pri:0, instance:com.meghana.parabank.tests.UiTests@5dda768f]" started-at="2026-11-22T12:42:06 IST" name="PB_TC_051_homePageUi" description="PB_TC_051 | Home page shows the login panel and all main links" finished-at="2026-11-22T12:42:12 IST" duration-ms="5626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_051_homePageUi -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.UiTests@5dda768f]" started-at="2026-11-22T12:42:12 IST" name="tearDown" finished-at="2026-11-22T12:42:12 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.UiTests -->
+      <class name="com.meghana.parabank.tests.AccountTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:24 IST" name="setUp" finished-at="2026-11-22T12:41:26 IST" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_016_accountsOverviewTable()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:26 IST" name="PB_TC_016_accountsOverviewTable" description="PB_TC_016 | Accounts Overview shows the table and the total" finished-at="2026-11-22T12:41:31 IST" duration-ms="5348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_016_accountsOverviewTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:31 IST" name="tearDown" finished-at="2026-11-22T12:41:31 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:31 IST" name="setUp" finished-at="2026-11-22T12:41:33 IST" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_018_openSavingsAccount()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:33 IST" name="PB_TC_018_openSavingsAccount" description="PB_TC_018 | Open a new SAVINGS account" finished-at="2026-11-22T12:41:38 IST" duration-ms="5314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_018_openSavingsAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:38 IST" name="tearDown" finished-at="2026-11-22T12:41:39 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:39 IST" name="setUp" finished-at="2026-11-22T12:41:40 IST" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_019_openCheckingAccount()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:40 IST" name="PB_TC_019_openCheckingAccount" description="PB_TC_019 | Open a new CHECKING account" finished-at="2026-11-22T12:41:48 IST" duration-ms="8380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_019_openCheckingAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:48 IST" name="tearDown" finished-at="2026-11-22T12:41:49 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:49 IST" name="setUp" finished-at="2026-11-22T12:41:50 IST" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_020_newAccountListed()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:41:50 IST" name="PB_TC_020_newAccountListed" description="PB_TC_020 | The newly opened account is listed in Accounts Overview" finished-at="2026-11-22T12:42:04 IST" duration-ms="13893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_020_newAccountListed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.AccountTests@1ce24091]" started-at="2026-11-22T12:42:04 IST" name="tearDown" finished-at="2026-11-22T12:42:05 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.AccountTests -->
+      <class name="com.meghana.parabank.tests.TransferTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:19 IST" name="setUp" finished-at="2026-11-22T12:44:22 IST" duration-ms="2385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_021_transferFunds()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:22 IST" name="PB_TC_021_transferFunds" description="PB_TC_021 | Transfer funds between two own accounts" finished-at="2026-11-22T12:44:29 IST" duration-ms="6844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_021_transferFunds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:29 IST" name="tearDown" finished-at="2026-11-22T12:44:29 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:29 IST" name="setUp" finished-at="2026-11-22T12:44:31 IST" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_022_balancesUpdatedAfterTransfer()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:31 IST" name="PB_TC_022_balancesUpdatedAfterTransfer" description="PB_TC_022 | Balances are updated after a transfer" finished-at="2026-11-22T12:44:41 IST" duration-ms="10447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_022_balancesUpdatedAfterTransfer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:41 IST" name="tearDown" finished-at="2026-11-22T12:44:41 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:41 IST" name="setUp" finished-at="2026-11-22T12:44:43 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_023_transferBlankAmount()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:43 IST" name="PB_TC_023_transferBlankAmount" description="PB_TC_023 | Transfer with the amount left blank" finished-at="2026-11-22T12:44:50 IST" duration-ms="7178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_023_transferBlankAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:50 IST" name="tearDown" finished-at="2026-11-22T12:44:50 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:50 IST" name="setUp" finished-at="2026-11-22T12:44:52 IST" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_024_transferNonNumericAmount()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:52 IST" name="PB_TC_024_transferNonNumericAmount" description="PB_TC_024 | Transfer with a non-numeric amount" finished-at="2026-11-22T12:44:58 IST" duration-ms="6310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_024_transferNonNumericAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:58 IST" name="tearDown" finished-at="2026-11-22T12:44:59 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:44:59 IST" name="setUp" finished-at="2026-11-22T12:45:00 IST" duration-ms="1487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PB_TC_043_transferDecimalAmount()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:45:00 IST" name="PB_TC_043_transferDecimalAmount" description="PB_TC_043 | Transfer with a decimal amount" finished-at="2026-11-22T12:45:16 IST" duration-ms="15924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PB_TC_043_transferDecimalAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.meghana.parabank.tests.TransferTests@279fedbd]" started-at="2026-11-22T12:45:16 IST" name="tearDown" finished-at="2026-11-22T12:45:17 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.meghana.parabank.tests.TransferTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

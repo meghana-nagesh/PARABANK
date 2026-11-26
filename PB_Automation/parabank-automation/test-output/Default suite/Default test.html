@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Nov 22 12:40:02 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>314 seconds (314977 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.meghana.parabank.tests.LoginTests.PB_TC_013_logout()'><b>PB_TC_013_logout</b><br>Test class: com.meghana.parabank.tests.LoginTests<br>Test method: PB_TC_013 | Log out returns to the login page</td>
+<td></td>
+<td>4</td>
+<td>com.meghana.parabank.tests.LoginTests@752325ad</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.LoginTests.PB_TC_010_loginWithBlankCredentials()'><b>PB_TC_010_loginWithBlankCredentials</b><br>Test class: com.meghana.parabank.tests.LoginTests<br>Test method: PB_TC_010 | Login with blank username and password</td>
+<td></td>
+<td>3</td>
+<td>com.meghana.parabank.tests.LoginTests@752325ad</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.LoanTests.PB_TC_038_loanDeniedForHighDownPayment()'><b>PB_TC_038_loanDeniedForHighDownPayment</b><br>Test class: com.meghana.parabank.tests.LoanTests<br>Test method: PB_TC_038 | Loan is denied when the down payment is more than the balance</td>
+<td></td>
+<td>7</td>
+<td>com.meghana.parabank.tests.LoanTests@2aceadd4</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.SecurityTests.PB_TC_050_accountPageNotOpenWithoutLogin()'><b>PB_TC_050_accountPageNotOpenWithoutLogin</b><br>Test class: com.meghana.parabank.tests.SecurityTests<br>Test method: PB_TC_050 | Account page cannot be opened without logging in</td>
+<td></td>
+<td>6</td>
+<td>com.meghana.parabank.tests.SecurityTests@24aed80c</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.NavigationTests.PB_TC_039_leftMenuLinks()'><b>PB_TC_039_leftMenuLinks</b><br>Test class: com.meghana.parabank.tests.NavigationTests<br>Test method: PB_TC_039 | All left menu links open the correct pages</td>
+<td></td>
+<td>13</td>
+<td>com.meghana.parabank.tests.NavigationTests@6989da5e</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.UiTests.PB_TC_051_homePageUi()'><b>PB_TC_051_homePageUi</b><br>Test class: com.meghana.parabank.tests.UiTests<br>Test method: PB_TC_051 | Home page shows the login panel and all main links</td>
+<td></td>
+<td>5</td>
+<td>com.meghana.parabank.tests.UiTests@5dda768f</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.TransferTests.PB_TC_043_transferDecimalAmount()'><b>PB_TC_043_transferDecimalAmount</b><br>Test class: com.meghana.parabank.tests.TransferTests<br>Test method: PB_TC_043 | Transfer with a decimal amount</td>
+<td></td>
+<td>15</td>
+<td>com.meghana.parabank.tests.TransferTests@279fedbd</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.BillPayTests.PB_TC_025_billPay()'><b>PB_TC_025_billPay</b><br>Test class: com.meghana.parabank.tests.BillPayTests<br>Test method: PB_TC_025 | Pay a bill with valid payee details</td>
+<td></td>
+<td>12</td>
+<td>com.meghana.parabank.tests.BillPayTests@3a52dba3</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.BillPayTests.PB_TC_027_billPayAccountMismatch()'><b>PB_TC_027_billPayAccountMismatch</b><br>Test class: com.meghana.parabank.tests.BillPayTests<br>Test method: PB_TC_027 | Bill payment when Account # and Verify Account # do not match</td>
+<td></td>
+<td>8</td>
+<td>com.meghana.parabank.tests.BillPayTests@3a52dba3</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.RegisterTests.PB_TC_001_registerNewCustomer()'><b>PB_TC_001_registerNewCustomer</b><br>Test class: com.meghana.parabank.tests.RegisterTests<br>Test method: PB_TC_001 | Register a new customer</td>
+<td></td>
+<td>9</td>
+<td>com.meghana.parabank.tests.RegisterTests@55fe41ea</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.BillPayTests.PB_TC_026_billPayBlankFields()'><b>PB_TC_026_billPayBlankFields</b><br>Test class: com.meghana.parabank.tests.BillPayTests<br>Test method: PB_TC_026 | Bill payment with all fields blank</td>
+<td></td>
+<td>6</td>
+<td>com.meghana.parabank.tests.BillPayTests@3a52dba3</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.AccountTests.PB_TC_016_accountsOverviewTable()'><b>PB_TC_016_accountsOverviewTable</b><br>Test class: com.meghana.parabank.tests.AccountTests<br>Test method: PB_TC_016 | Accounts Overview shows the table and the total</td>
+<td></td>
+<td>5</td>
+<td>com.meghana.parabank.tests.AccountTests@1ce24091</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.RegisterTests.PB_TC_004_registerExistingUsername()'><b>PB_TC_004_registerExistingUsername</b><br>Test class: com.meghana.parabank.tests.RegisterTests<br>Test method: PB_TC_004 | Registration with an already existing username</td>
+<td></td>
+<td>13</td>
+<td>com.meghana.parabank.tests.RegisterTests@55fe41ea</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.LoginTests.PB_TC_009_loginWithInvalidUsername()'><b>PB_TC_009_loginWithInvalidUsername</b><br>Test class: com.meghana.parabank.tests.LoginTests<br>Test method: PB_TC_009 | Login with an invalid username</td>
+<td></td>
+<td>3</td>
+<td>com.meghana.parabank.tests.LoginTests@752325ad</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.AccountTests.PB_TC_020_newAccountListed()'><b>PB_TC_020_newAccountListed</b><br>Test class: com.meghana.parabank.tests.AccountTests<br>Test method: PB_TC_020 | The newly opened account is listed in Accounts Overview</td>
+<td></td>
+<td>13</td>
+<td>com.meghana.parabank.tests.AccountTests@1ce24091</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.TransferTests.PB_TC_023_transferBlankAmount()'><b>PB_TC_023_transferBlankAmount</b><br>Test class: com.meghana.parabank.tests.TransferTests<br>Test method: PB_TC_023 | Transfer with the amount left blank</td>
+<td></td>
+<td>7</td>
+<td>com.meghana.parabank.tests.TransferTests@279fedbd</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.CrossBrowserTests.PB_TC_054_mainFlowInAnotherBrowser()'><b>PB_TC_054_mainFlowInAnotherBrowser</b><br>Test class: com.meghana.parabank.tests.CrossBrowserTests<br>Test method: PB_TC_054 | Login and transfer work in another browser</td>
+<td></td>
+<td>17</td>
+<td>com.meghana.parabank.tests.CrossBrowserTests@fbd1f6</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.AccountTests.PB_TC_018_openSavingsAccount()'><b>PB_TC_018_openSavingsAccount</b><br>Test class: com.meghana.parabank.tests.AccountTests<br>Test method: PB_TC_018 | Open a new SAVINGS account</td>
+<td></td>
+<td>5</td>
+<td>com.meghana.parabank.tests.AccountTests@1ce24091</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.TransferTests.PB_TC_022_balancesUpdatedAfterTransfer()'><b>PB_TC_022_balancesUpdatedAfterTransfer</b><br>Test class: com.meghana.parabank.tests.TransferTests<br>Test method: PB_TC_022 | Balances are updated after a transfer</td>
+<td></td>
+<td>10</td>
+<td>com.meghana.parabank.tests.TransferTests@279fedbd</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.ProfileTests.PB_TC_033_updateContactInfo()'><b>PB_TC_033_updateContactInfo</b><br>Test class: com.meghana.parabank.tests.ProfileTests<br>Test method: PB_TC_033 | Update address, city and phone number</td>
+<td></td>
+<td>8</td>
+<td>com.meghana.parabank.tests.ProfileTests@2a5c8d3f</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.RegisterTests.PB_TC_002_registerWithBlankFields()'><b>PB_TC_002_registerWithBlankFields</b><br>Test class: com.meghana.parabank.tests.RegisterTests<br>Test method: PB_TC_002 | Registration with all fields blank</td>
+<td></td>
+<td>6</td>
+<td>com.meghana.parabank.tests.RegisterTests@55fe41ea</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.RegisterTests.PB_TC_003_registerPasswordMismatch()'><b>PB_TC_003_registerPasswordMismatch</b><br>Test class: com.meghana.parabank.tests.RegisterTests<br>Test method: PB_TC_003 | Registration with mismatched Password and Confirm password</td>
+<td></td>
+<td>7</td>
+<td>com.meghana.parabank.tests.RegisterTests@55fe41ea</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.ProfileTests.PB_TC_035_updatedDetailsSaved()'><b>PB_TC_035_updatedDetailsSaved</b><br>Test class: com.meghana.parabank.tests.ProfileTests<br>Test method: PB_TC_035 | Updated contact details are saved after logging in again</td>
+<td></td>
+<td>18</td>
+<td>com.meghana.parabank.tests.ProfileTests@2a5c8d3f</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.LoginTests.PB_TC_012_passwordIsCaseSensitive()'><b>PB_TC_012_passwordIsCaseSensitive</b><br>Test class: com.meghana.parabank.tests.LoginTests<br>Test method: PB_TC_012 | Password is case sensitive</td>
+<td></td>
+<td>3</td>
+<td>com.meghana.parabank.tests.LoginTests@752325ad</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.AccountTests.PB_TC_019_openCheckingAccount()'><b>PB_TC_019_openCheckingAccount</b><br>Test class: com.meghana.parabank.tests.AccountTests<br>Test method: PB_TC_019 | Open a new CHECKING account</td>
+<td></td>
+<td>8</td>
+<td>com.meghana.parabank.tests.AccountTests@1ce24091</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.LoanTests.PB_TC_036_requestLoan()'><b>PB_TC_036_requestLoan</b><br>Test class: com.meghana.parabank.tests.LoanTests<br>Test method: PB_TC_036 | Request a loan with valid details</td>
+<td></td>
+<td>10</td>
+<td>com.meghana.parabank.tests.LoanTests@2aceadd4</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.LoginTests.PB_TC_007_loginWithValidCredentials()'><b>PB_TC_007_loginWithValidCredentials</b><br>Test class: com.meghana.parabank.tests.LoginTests<br>Test method: PB_TC_007 | Login with valid credentials</td>
+<td></td>
+<td>5</td>
+<td>com.meghana.parabank.tests.LoginTests@752325ad</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.TransferTests.PB_TC_021_transferFunds()'><b>PB_TC_021_transferFunds</b><br>Test class: com.meghana.parabank.tests.TransferTests<br>Test method: PB_TC_021 | Transfer funds between two own accounts</td>
+<td></td>
+<td>6</td>
+<td>com.meghana.parabank.tests.TransferTests@279fedbd</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.LoginTests.PB_TC_008_loginWithInvalidCredentials()'><b>PB_TC_008_loginWithInvalidCredentials</b><br>Test class: com.meghana.parabank.tests.LoginTests<br>Test method: PB_TC_008 | Login with valid username and wrong password</td>
+<td></td>
+<td>3</td>
+<td>com.meghana.parabank.tests.LoginTests@752325ad</td></tr>
+<tr>
+<td title='com.meghana.parabank.tests.TransferTests.PB_TC_024_transferNonNumericAmount()'><b>PB_TC_024_transferNonNumericAmount</b><br>Test class: com.meghana.parabank.tests.TransferTests<br>Test method: PB_TC_024 | Transfer with a non-numeric amount</td>
+<td></td>
+<td>6</td>
+<td>com.meghana.parabank.tests.TransferTests@279fedbd</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+target/
+*.class
+.idea/
+.classpath
+.project
+.settings/
+screenshots/

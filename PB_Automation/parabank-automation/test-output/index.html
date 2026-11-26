@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1656539997\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.RegisterTests" class="method navigator-link" hash-for-method="PB_TC_001_registerNewCustomer">PB_TC_001_registerNewCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.RegisterTests" class="method navigator-link" hash-for-method="PB_TC_002_registerWithBlankFields">PB_TC_002_registerWithBlankFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.RegisterTests" class="method navigator-link" hash-for-method="PB_TC_003_registerPasswordMismatch">PB_TC_003_registerPasswordMismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.RegisterTests" class="method navigator-link" hash-for-method="PB_TC_004_registerExistingUsername">PB_TC_004_registerExistingUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.LoginTests" class="method navigator-link" hash-for-method="PB_TC_007_loginWithValidCredentials">PB_TC_007_loginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.LoginTests" class="method navigator-link" hash-for-method="PB_TC_008_loginWithInvalidCredentials">PB_TC_008_loginWithInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.LoginTests" class="method navigator-link" hash-for-method="PB_TC_009_loginWithInvalidUsername">PB_TC_009_loginWithInvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.LoginTests" class="method navigator-link" hash-for-method="PB_TC_010_loginWithBlankCredentials">PB_TC_010_loginWithBlankCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.LoginTests" class="method navigator-link" hash-for-method="PB_TC_012_passwordIsCaseSensitive">PB_TC_012_passwordIsCaseSensitive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.LoginTests" class="method navigator-link" hash-for-method="PB_TC_013_logout">PB_TC_013_logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.AccountTests" class="method navigator-link" hash-for-method="PB_TC_016_accountsOverviewTable">PB_TC_016_accountsOverviewTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.AccountTests" class="method navigator-link" hash-for-method="PB_TC_018_openSavingsAccount">PB_TC_018_openSavingsAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.AccountTests" class="method navigator-link" hash-for-method="PB_TC_019_openCheckingAccount">PB_TC_019_openCheckingAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.AccountTests" class="method navigator-link" hash-for-method="PB_TC_020_newAccountListed">PB_TC_020_newAccountListed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.TransferTests" class="method navigator-link" hash-for-method="PB_TC_021_transferFunds">PB_TC_021_transferFunds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.TransferTests" class="method navigator-link" hash-for-method="PB_TC_022_balancesUpdatedAfterTransfer">PB_TC_022_balancesUpdatedAfterTransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.TransferTests" class="method navigator-link" hash-for-method="PB_TC_023_transferBlankAmount">PB_TC_023_transferBlankAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.TransferTests" class="method navigator-link" hash-for-method="PB_TC_024_transferNonNumericAmount">PB_TC_024_transferNonNumericAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.BillPayTests" class="method navigator-link" hash-for-method="PB_TC_025_billPay">PB_TC_025_billPay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.BillPayTests" class="method navigator-link" hash-for-method="PB_TC_026_billPayBlankFields">PB_TC_026_billPayBlankFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.BillPayTests" class="method navigator-link" hash-for-method="PB_TC_027_billPayAccountMismatch">PB_TC_027_billPayAccountMismatch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.ProfileTests" class="method navigator-link" hash-for-method="PB_TC_033_updateContactInfo">PB_TC_033_updateContactInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.ProfileTests" class="method navigator-link" hash-for-method="PB_TC_035_updatedDetailsSaved">PB_TC_035_updatedDetailsSaved</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.LoanTests" class="method navigator-link" hash-for-method="PB_TC_036_requestLoan">PB_TC_036_requestLoan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.LoanTests" class="method navigator-link" hash-for-method="PB_TC_038_loanDeniedForHighDownPayment">PB_TC_038_loanDeniedForHighDownPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.NavigationTests" class="method navigator-link" hash-for-method="PB_TC_039_leftMenuLinks">PB_TC_039_leftMenuLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.TransferTests" class="method navigator-link" hash-for-method="PB_TC_043_transferDecimalAmount">PB_TC_043_transferDecimalAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.SecurityTests" class="method navigator-link" hash-for-method="PB_TC_050_accountPageNotOpenWithoutLogin">PB_TC_050_accountPageNotOpenWithoutLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.UiTests" class="method navigator-link" hash-for-method="PB_TC_051_homePageUi">PB_TC_051_homePageUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.meghana.parabank.tests.CrossBrowserTests" class="method navigator-link" hash-for-method="PB_TC_054_mainFlowInAnotherBrowser">PB_TC_054_mainFlowInAnotherBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.AccountTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_016_accountsOverviewTable">
+                  </a> <!-- PB_TC_016_accountsOverviewTable -->
+                  <span class="method-name">PB_TC_016_accountsOverviewTable</span>
+                  <em>
+(PB_TC_016 | Accounts Overview shows the table and the total)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_018_openSavingsAccount">
+                  </a> <!-- PB_TC_018_openSavingsAccount -->
+                  <span class="method-name">PB_TC_018_openSavingsAccount</span>
+                  <em>
+(PB_TC_018 | Open a new SAVINGS account)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_019_openCheckingAccount">
+                  </a> <!-- PB_TC_019_openCheckingAccount -->
+                  <span class="method-name">PB_TC_019_openCheckingAccount</span>
+                  <em>
+(PB_TC_019 | Open a new CHECKING account)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_020_newAccountListed">
+                  </a> <!-- PB_TC_020_newAccountListed -->
+                  <span class="method-name">PB_TC_020_newAccountListed</span>
+                  <em>
+(PB_TC_020 | The newly opened account is listed in Accounts Overview)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.SecurityTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_050_accountPageNotOpenWithoutLogin">
+                  </a> <!-- PB_TC_050_accountPageNotOpenWithoutLogin -->
+                  <span class="method-name">PB_TC_050_accountPageNotOpenWithoutLogin</span>
+                  <em>
+(PB_TC_050 | Account page cannot be opened without logging in)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_007_loginWithValidCredentials">
+                  </a> <!-- PB_TC_007_loginWithValidCredentials -->
+                  <span class="method-name">PB_TC_007_loginWithValidCredentials</span>
+                  <em>
+(PB_TC_007 | Login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_008_loginWithInvalidCredentials">
+                  </a> <!-- PB_TC_008_loginWithInvalidCredentials -->
+                  <span class="method-name">PB_TC_008_loginWithInvalidCredentials</span>
+                  <em>
+(PB_TC_008 | Login with valid username and wrong password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_009_loginWithInvalidUsername">
+                  </a> <!-- PB_TC_009_loginWithInvalidUsername -->
+                  <span class="method-name">PB_TC_009_loginWithInvalidUsername</span>
+                  <em>
+(PB_TC_009 | Login with an invalid username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_010_loginWithBlankCredentials">
+                  </a> <!-- PB_TC_010_loginWithBlankCredentials -->
+                  <span class="method-name">PB_TC_010_loginWithBlankCredentials</span>
+                  <em>
+(PB_TC_010 | Login with blank username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_012_passwordIsCaseSensitive">
+                  </a> <!-- PB_TC_012_passwordIsCaseSensitive -->
+                  <span class="method-name">PB_TC_012_passwordIsCaseSensitive</span>
+                  <em>
+(PB_TC_012 | Password is case sensitive)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_013_logout">
+                  </a> <!-- PB_TC_013_logout -->
+                  <span class="method-name">PB_TC_013_logout</span>
+                  <em>
+(PB_TC_013 | Log out returns to the login page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.BillPayTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_025_billPay">
+                  </a> <!-- PB_TC_025_billPay -->
+                  <span class="method-name">PB_TC_025_billPay</span>
+                  <em>
+(PB_TC_025 | Pay a bill with valid payee details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_026_billPayBlankFields">
+                  </a> <!-- PB_TC_026_billPayBlankFields -->
+                  <span class="method-name">PB_TC_026_billPayBlankFields</span>
+                  <em>
+(PB_TC_026 | Bill payment with all fields blank)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_027_billPayAccountMismatch">
+                  </a> <!-- PB_TC_027_billPayAccountMismatch -->
+                  <span class="method-name">PB_TC_027_billPayAccountMismatch</span>
+                  <em>
+(PB_TC_027 | Bill payment when Account # and Verify Account # do not match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.TransferTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_021_transferFunds">
+                  </a> <!-- PB_TC_021_transferFunds -->
+                  <span class="method-name">PB_TC_021_transferFunds</span>
+                  <em>
+(PB_TC_021 | Transfer funds between two own accounts)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_022_balancesUpdatedAfterTransfer">
+                  </a> <!-- PB_TC_022_balancesUpdatedAfterTransfer -->
+                  <span class="method-name">PB_TC_022_balancesUpdatedAfterTransfer</span>
+                  <em>
+(PB_TC_022 | Balances are updated after a transfer)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_023_transferBlankAmount">
+                  </a> <!-- PB_TC_023_transferBlankAmount -->
+                  <span class="method-name">PB_TC_023_transferBlankAmount</span>
+                  <em>
+(PB_TC_023 | Transfer with the amount left blank)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_024_transferNonNumericAmount">
+                  </a> <!-- PB_TC_024_transferNonNumericAmount -->
+                  <span class="method-name">PB_TC_024_transferNonNumericAmount</span>
+                  <em>
+(PB_TC_024 | Transfer with a non-numeric amount)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_043_transferDecimalAmount">
+                  </a> <!-- PB_TC_043_transferDecimalAmount -->
+                  <span class="method-name">PB_TC_043_transferDecimalAmount</span>
+                  <em>
+(PB_TC_043 | Transfer with a decimal amount)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.ProfileTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_033_updateContactInfo">
+                  </a> <!-- PB_TC_033_updateContactInfo -->
+                  <span class="method-name">PB_TC_033_updateContactInfo</span>
+                  <em>
+(PB_TC_033 | Update address, city and phone number)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_035_updatedDetailsSaved">
+                  </a> <!-- PB_TC_035_updatedDetailsSaved -->
+                  <span class="method-name">PB_TC_035_updatedDetailsSaved</span>
+                  <em>
+(PB_TC_035 | Updated contact details are saved after logging in again)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.CrossBrowserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_054_mainFlowInAnotherBrowser">
+                  </a> <!-- PB_TC_054_mainFlowInAnotherBrowser -->
+                  <span class="method-name">PB_TC_054_mainFlowInAnotherBrowser</span>
+                  <em>
+(PB_TC_054 | Login and transfer work in another browser)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.NavigationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_039_leftMenuLinks">
+                  </a> <!-- PB_TC_039_leftMenuLinks -->
+                  <span class="method-name">PB_TC_039_leftMenuLinks</span>
+                  <em>
+(PB_TC_039 | All left menu links open the correct pages)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.RegisterTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_001_registerNewCustomer">
+                  </a> <!-- PB_TC_001_registerNewCustomer -->
+                  <span class="method-name">PB_TC_001_registerNewCustomer</span>
+                  <em>
+(PB_TC_001 | Register a new customer)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_002_registerWithBlankFields">
+                  </a> <!-- PB_TC_002_registerWithBlankFields -->
+                  <span class="method-name">PB_TC_002_registerWithBlankFields</span>
+                  <em>
+(PB_TC_002 | Registration with all fields blank)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_003_registerPasswordMismatch">
+                  </a> <!-- PB_TC_003_registerPasswordMismatch -->
+                  <span class="method-name">PB_TC_003_registerPasswordMismatch</span>
+                  <em>
+(PB_TC_003 | Registration with mismatched Password and Confirm password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_004_registerExistingUsername">
+                  </a> <!-- PB_TC_004_registerExistingUsername -->
+                  <span class="method-name">PB_TC_004_registerExistingUsername</span>
+                  <em>
+(PB_TC_004 | Registration with an already existing username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.UiTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_051_homePageUi">
+                  </a> <!-- PB_TC_051_homePageUi -->
+                  <span class="method-name">PB_TC_051_homePageUi</span>
+                  <em>
+(PB_TC_051 | Home page shows the login panel and all main links)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.meghana.parabank.tests.LoanTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_036_requestLoan">
+                  </a> <!-- PB_TC_036_requestLoan -->
+                  <span class="method-name">PB_TC_036_requestLoan</span>
+                  <em>
+(PB_TC_036 | Request a loan with valid details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PB_TC_038_loanDeniedForHighDownPayment">
+                  </a> <!-- PB_TC_038_loanDeniedForHighDownPayment -->
+                  <span class="method-name">PB_TC_038_loanDeniedForHighDownPayment</span>
+                  <em>
+(PB_TC_038 | Loan is denied when the down payment is more than the balance)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1656539997\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.meghana.parabank.pages.BillPayPage&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.NavigationTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.RegisterTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.pages.LoanPage&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.CrossBrowserTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.AccountTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.UiTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.listeners.TestListener&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.pages.UpdateProfilePage&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.pages.BasePage&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.base.BaseTest&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.FindTransactionsTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.LoanTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.SecurityTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.pages.HomePage&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.pages.OpenAccountPage&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.utils.UserData&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.BillPayTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.ProfileTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.utils.Config&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.pages.RegisterPage&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.pages.OverviewPage&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.pages.TransferPage&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.LoginTests&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.pages.FindTransactionsPage&quot;/&gt;
+      &lt;class name=&quot;com.meghana.parabank.tests.TransferTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (26 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">crossbrowser</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_054_mainFlowInAnotherBrowser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_001_registerNewCustomer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_002_registerWithBlankFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_003_registerPasswordMismatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_004_registerExistingUsername</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_007_loginWithValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_008_loginWithInvalidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_009_loginWithInvalidUsername</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_010_loginWithBlankCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_012_passwordIsCaseSensitive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_013_logout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_016_accountsOverviewTable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_018_openSavingsAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_019_openCheckingAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_020_newAccountListed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_021_transferFunds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_022_balancesUpdatedAfterTransfer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_023_transferBlankAmount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_024_transferNonNumericAmount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_025_billPay</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_026_billPayBlankFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_027_billPayAccountMismatch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_033_updateContactInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_035_updatedDetailsSaved</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_036_requestLoan</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_038_loanDeniedForHighDownPayment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_039_leftMenuLinks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_043_transferDecimalAmount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_050_accountPageNotOpenWithoutLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_051_homePageUi</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_007_loginWithValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_013_logout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_019_openCheckingAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_021_transferFunds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_025_billPay</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PB_TC_039_leftMenuLinks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'PB_TC_035_updatedDetailsSaved')
+data.setCell(0, 2, 'com.meghana.parabank.tests.ProfileTests')
+data.setCell(0, 3, 18025);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'PB_TC_054_mainFlowInAnotherBrowser')
+data.setCell(1, 2, 'com.meghana.parabank.tests.CrossBrowserTests')
+data.setCell(1, 3, 17766);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'PB_TC_043_transferDecimalAmount')
+data.setCell(2, 2, 'com.meghana.parabank.tests.TransferTests')
+data.setCell(2, 3, 15924);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'PB_TC_020_newAccountListed')
+data.setCell(3, 2, 'com.meghana.parabank.tests.AccountTests')
+data.setCell(3, 3, 13893);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PB_TC_039_leftMenuLinks')
+data.setCell(4, 2, 'com.meghana.parabank.tests.NavigationTests')
+data.setCell(4, 3, 13833);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'PB_TC_004_registerExistingUsername')
+data.setCell(5, 2, 'com.meghana.parabank.tests.RegisterTests')
+data.setCell(5, 3, 13443);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'PB_TC_025_billPay')
+data.setCell(6, 2, 'com.meghana.parabank.tests.BillPayTests')
+data.setCell(6, 3, 12106);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'PB_TC_022_balancesUpdatedAfterTransfer')
+data.setCell(7, 2, 'com.meghana.parabank.tests.TransferTests')
+data.setCell(7, 3, 10447);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'PB_TC_036_requestLoan')
+data.setCell(8, 2, 'com.meghana.parabank.tests.LoanTests')
+data.setCell(8, 3, 10285);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'PB_TC_001_registerNewCustomer')
+data.setCell(9, 2, 'com.meghana.parabank.tests.RegisterTests')
+data.setCell(9, 3, 9130);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'PB_TC_033_updateContactInfo')
+data.setCell(10, 2, 'com.meghana.parabank.tests.ProfileTests')
+data.setCell(10, 3, 8799);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'PB_TC_019_openCheckingAccount')
+data.setCell(11, 2, 'com.meghana.parabank.tests.AccountTests')
+data.setCell(11, 3, 8380);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'PB_TC_027_billPayAccountMismatch')
+data.setCell(12, 2, 'com.meghana.parabank.tests.BillPayTests')
+data.setCell(12, 3, 8229);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PB_TC_003_registerPasswordMismatch')
+data.setCell(13, 2, 'com.meghana.parabank.tests.RegisterTests')
+data.setCell(13, 3, 7572);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'PB_TC_038_loanDeniedForHighDownPayment')
+data.setCell(14, 2, 'com.meghana.parabank.tests.LoanTests')
+data.setCell(14, 3, 7542);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'PB_TC_023_transferBlankAmount')
+data.setCell(15, 2, 'com.meghana.parabank.tests.TransferTests')
+data.setCell(15, 3, 7178);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'PB_TC_002_registerWithBlankFields')
+data.setCell(16, 2, 'com.meghana.parabank.tests.RegisterTests')
+data.setCell(16, 3, 6857);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'PB_TC_021_transferFunds')
+data.setCell(17, 2, 'com.meghana.parabank.tests.TransferTests')
+data.setCell(17, 3, 6844);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'PB_TC_026_billPayBlankFields')
+data.setCell(18, 2, 'com.meghana.parabank.tests.BillPayTests')
+data.setCell(18, 3, 6757);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'PB_TC_024_transferNonNumericAmount')
+data.setCell(19, 2, 'com.meghana.parabank.tests.TransferTests')
+data.setCell(19, 3, 6310);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'PB_TC_050_accountPageNotOpenWithoutLogin')
+data.setCell(20, 2, 'com.meghana.parabank.tests.SecurityTests')
+data.setCell(20, 3, 6203);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'PB_TC_051_homePageUi')
+data.setCell(21, 2, 'com.meghana.parabank.tests.UiTests')
+data.setCell(21, 3, 5626);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'PB_TC_007_loginWithValidCredentials')
+data.setCell(22, 2, 'com.meghana.parabank.tests.LoginTests')
+data.setCell(22, 3, 5408);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'PB_TC_016_accountsOverviewTable')
+data.setCell(23, 2, 'com.meghana.parabank.tests.AccountTests')
+data.setCell(23, 3, 5348);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'PB_TC_018_openSavingsAccount')
+data.setCell(24, 2, 'com.meghana.parabank.tests.AccountTests')
+data.setCell(24, 3, 5314);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'PB_TC_013_logout')
+data.setCell(25, 2, 'com.meghana.parabank.tests.LoginTests')
+data.setCell(25, 3, 4388);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'PB_TC_010_loginWithBlankCredentials')
+data.setCell(26, 2, 'com.meghana.parabank.tests.LoginTests')
+data.setCell(26, 3, 3921);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'PB_TC_012_passwordIsCaseSensitive')
+data.setCell(27, 2, 'com.meghana.parabank.tests.LoginTests')
+data.setCell(27, 3, 3233);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'PB_TC_009_loginWithInvalidUsername')
+data.setCell(28, 2, 'com.meghana.parabank.tests.LoginTests')
+data.setCell(28, 3, 3076);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'PB_TC_008_loginWithInvalidCredentials')
+data.setCell(29, 2, 'com.meghana.parabank.tests.LoginTests')
+data.setCell(29, 3, 3044);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.meghana.parabank.tests.TransferTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">PB_TC_041_transferZeroAmount</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.meghana.parabank.tests.FindTransactionsTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">PB_TC_031_findTransactionsByAmount</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_039_leftMenuLinks</span>
+                <span class="method-start">2558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16395 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.RegisterTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_001_registerNewCustomer</span>
+                <span class="method-start">18305 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_002_registerWithBlankFields</span>
+                <span class="method-start">29277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36135 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_003_registerPasswordMismatch</span>
+                <span class="method-start">38043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45968 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_004_registerExistingUsername</span>
+                <span class="method-start">47637 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61081 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.CrossBrowserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_054_mainFlowInAnotherBrowser</span>
+                <span class="method-start">62848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80616 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.AccountTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">82629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_016_accountsOverviewTable</span>
+                <span class="method-start">84104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">89829 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_018_openSavingsAccount</span>
+                <span class="method-start">91309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96630 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_019_openCheckingAccount</span>
+                <span class="method-start">98492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">107181 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_020_newAccountListed</span>
+                <span class="method-start">108735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122629 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.UiTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">123079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_051_homePageUi</span>
+                <span class="method-start">124850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">130477 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.LoanTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">130810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_036_requestLoan</span>
+                <span class="method-start">132364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">142977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_038_loanDeniedForHighDownPayment</span>
+                <span class="method-start">144471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152014 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.SecurityTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">152329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_050_accountPageNotOpenWithoutLogin</span>
+                <span class="method-start">153967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160171 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.BillPayTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">160634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_025_billPay</span>
+                <span class="method-start">162182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">174289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">174608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_026_billPayBlankFields</span>
+                <span class="method-start">176076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">182838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">183206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_027_billPayAccountMismatch</span>
+                <span class="method-start">184664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">192894 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.ProfileTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">193230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_033_updateContactInfo</span>
+                <span class="method-start">194713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">203513 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">203874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_035_updatedDetailsSaved</span>
+                <span class="method-start">205418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">223444 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">223862 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_007_loginWithValidCredentials</span>
+                <span class="method-start">225337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">230746 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">231096 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_008_loginWithInvalidCredentials</span>
+                <span class="method-start">232695 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">235740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">236068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_009_loginWithInvalidUsername</span>
+                <span class="method-start">237572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">240649 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">240957 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_010_loginWithBlankCredentials</span>
+                <span class="method-start">242339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">246571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_012_passwordIsCaseSensitive</span>
+                <span class="method-start">248095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">251331 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">251649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_013_logout</span>
+                <span class="method-start">253150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">257538 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.meghana.parabank.tests.TransferTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">257865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_021_transferFunds</span>
+                <span class="method-start">260250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">267095 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">267424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_022_balancesUpdatedAfterTransfer</span>
+                <span class="method-start">268965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">279413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">279784 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_023_transferBlankAmount</span>
+                <span class="method-start">281279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">288458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">288864 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_024_transferNonNumericAmount</span>
+                <span class="method-start">290481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">296794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">297116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PB_TC_043_transferDecimalAmount</span>
+                <span class="method-start">298603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">314528 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

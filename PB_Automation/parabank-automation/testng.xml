@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParaBank Automation Suite">
+    <listeners>
+        <listener class-name="com.meghana.parabank.listeners.TestListener"/>
+    </listeners>
+    <test name="ParaBank Tests">
+        <classes>
+            <class name="com.meghana.parabank.tests.RegisterTests"/>
+            <class name="com.meghana.parabank.tests.LoginTests"/>
+            <class name="com.meghana.parabank.tests.AccountTests"/>
+            <class name="com.meghana.parabank.tests.TransferTests"/>
+            <class name="com.meghana.parabank.tests.BillPayTests"/>
+            <class name="com.meghana.parabank.tests.FindTransactionsTests"/>
+            <class name="com.meghana.parabank.tests.ProfileTests"/>
+            <class name="com.meghana.parabank.tests.LoanTests"/>
+            <class name="com.meghana.parabank.tests.NavigationTests"/>
+            <class name="com.meghana.parabank.tests.SecurityTests"/>
+            <class name="com.meghana.parabank.tests.UiTests"/>
+            <class name="com.meghana.parabank.tests.CrossBrowserTests"/>
+        </classes>
+    </test>
+</suite>
